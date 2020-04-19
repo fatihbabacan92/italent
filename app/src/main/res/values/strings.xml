@@ -2,7 +2,7 @@
     <string name="app_name">I-Talent</string>
     <string name="title_home">Introductie</string>
     <string name="title_activities">Activiteiten</string>
-    <string name="title_notifications">Reflectie</string>
+    <string name="title_reflection">Reflectie</string>
 
 
 </resources>
