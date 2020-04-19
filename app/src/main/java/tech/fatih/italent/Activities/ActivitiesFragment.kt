@@ -2,16 +2,16 @@ package tech.fatih.italent.Activities
 
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.cardview.widget.CardView
+import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_activities.*
 import kotlinx.android.synthetic.main.fragment_activities.view.*
-import kotlinx.android.synthetic.main.fragment_activities.view.innovatieroute_card
 import tech.fatih.italent.R
+
 
 class ActivitiesFragment : Fragment() {
 
@@ -32,39 +32,43 @@ class ActivitiesFragment : Fragment() {
         var rootView = inflater!!.inflate(R.layout.fragment_activities, container, false)
         val context: Context? = super.getContext()
 
+        setClickListeners(rootView)
+
         return rootView
     }
 
-    fun onClick(v: View) {
+    fun setClickListeners(v: View) {
         val intent = Intent(context, ActivityDetailActivity::class.java)
         var activityName = ""
-        when (v) {
-            innovatieroute_card -> {
-                activityName = "innovatie"
-                intent.putExtra("activity", activityName)
-            }
-            blockchain_card -> {
-                activityName = "blockchain"
-                intent.putExtra("activity", activityName)
-            }
-            ai_card -> {
-                activityName = "ai"
-                intent.putExtra("activity", activityName)
-            }
-            stage_card -> {
-                activityName = "stage"
-                intent.putExtra("activity", activityName)
-            }
-            oneclock_card -> {
-                activityName = "oneclock"
-                intent.putExtra("activity", activityName)
-            }
-            omnibuzz_card -> {
-                activityName = "omnibuzz"
-                intent.putExtra("activity", activityName)
-            }
+        v.innovatieroute_card.setOnClickListener { f ->
+            activityName = "innovatie"
+            intent.putExtra("activityName", activityName)
+            startActivity(intent)
         }
-
-        startActivity(intent)
+        v.blockchain_card.setOnClickListener { f ->
+            activityName = "blockchain"
+            intent.putExtra("activityName", activityName)
+            startActivity(intent)
+        }
+        v.ai_card.setOnClickListener { f ->
+            activityName = "ai"
+            intent.putExtra("activityName", activityName)
+            startActivity(intent)
+        }
+        v.stage_card.setOnClickListener { f ->
+            activityName = "stage"
+            intent.putExtra("activityName", activityName)
+            startActivity(intent)
+        }
+        v.oneclock_card.setOnClickListener { f ->
+            activityName = "oneclock"
+            intent.putExtra("activityName", activityName)
+            startActivity(intent)
+        }
+        v.omnibuzz_card.setOnClickListener { f ->
+            activityName = "omnibuzz"
+            intent.putExtra("activityName", activityName)
+            startActivity(intent)
+        }
     }
 }

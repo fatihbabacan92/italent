@@ -5,8 +5,7 @@
     android:id="@+id/activities_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".Activities.ActivitiesFragment">
+    android:orientation="vertical">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,8 +25,7 @@
                 android:layout_margin="15dp"
                 android:elevation="6dp"
                 app:cardBackgroundColor="@color/White"
-                app:cardCornerRadius="15dp"
-                android:onClick="onClick">
+                app:cardCornerRadius="15dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
