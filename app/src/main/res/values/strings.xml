@@ -5,4 +5,27 @@
     <string name="title_reflection">Reflectie</string>
 
 
+    <!-- HomeFragment -->
+    <string name="introduction_text">Ik ben Fatih, een 28-jarige introvert persoon afkomstig uit Bree. Ik ben zeer analytisch, zo los ik problemen op vanuit diverse perspectieven. Daardoor heb ik ook een oog voor details. Ik kan daarbij goed out-of-the-box denken, soms verras ik zelfs mezelf met mijn creativiteit. Mijn vader vertelt altijd met trots verhaaltjes over hoe ik bewust mijn computer kapot maakte om het dan weer te kunnen repareren. Hij vindt het geweldig dat ik zo heb leren werken met computers. Ik hou nu eenmaal van problemen oplossen, dat is ook waarom programmeren een passie is voor mij. Daarbij had ik mijn eerste website gemaakt in 2005, toen was ik amper dertien jaar oud. In mijn vrije tijd lees ik vaak artikelen over technologie, wetenschap en geschiedenis. Kennis vergaren is een verslavende hobby dat gedreven is door mijn nieuwsgierigheid. Ik leer altijd graag bij over van alles en nog wat. Ik ben vooral gefascineerd door astrofysica, deze passie is ontstaan uit mijn zelfkritische denkvermogen. Ik wil altijd weten wie ik ben en astrofysica wil weten wat het universum is. Verder lees ik graag veel boeken op mijn Kindle. Ik lees vooral graag romans van Haruki Murakami en sciencefiction. Wat nog interessant aan mij is dat ik zeven talen kan spreken waaronder Japans.
+    Als programmeur werk ik het liefst aan mobiele- en webapplicaties, mar toch werk ik ook graag aan backends. Dit maakt van mij een full stack developer. Ik ontwikkel graag applicaties voor Android met de Kotlin programmeertaal. Daarbij hou ik er ook van om webapplicaties te ontwikkelen met frameworks zoals Angular en VueJS. Zoals gezegd, werk ik ook wel graag aan de backend. Dit doe ik het liefste met Jave en Spring, maar ook met .NET Core. Daarbij heb ik ook een tijdje marketing gestudeerd aan de Hogeschool PXL, ik heb deze opleiding helaas niet afgewerkt. Ik heb er wel veel aan over gehouden. Zo ben ik in staat om mijn marketingvaardigheden te verwerken in mijn applicaties. Ik kan voor een sterke SEO zorgen en ik kan ook aantrekkelijke content schrijven. Ook heb ik dankzij de opleiding van marketing een goed inzicht in het ontwerpen van gebruikerservaring en UI.
+    Mijn ambitie is om een sterke ontwikkelaar te worden die flexibel is en met verschillende programmeertalen en frameworks kan omgaan. Natuurlijk wil ik mezelf specialiseren in mobiele en webapplicaties, maar ik wil zeker ook ervaring en kennis hebben van andere zaken. Ik wil graag aan de slag gaan als een full stack consultant zodat ik me kan specialiseren, maar ook ervaring kan opdoen aan verschillende frameworks en aspecten van de job.
+    </string>
+
+
+    <!-- ActivitiesFragment -->
+
+    <!-- InnovatieRoute -->
+
+    <!-- Accenture -->
+
+    <!-- Belfius -->
+
+    <!-- Portugal -->
+
+    <!-- OneClock -->
+
+    <!-- OmniBuzz -->
+
+    <!-- ReflectionFragment -->
+
 </resources>
