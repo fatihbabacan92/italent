@@ -37,7 +37,7 @@
                         android:layout_height="150dp"
                         android:contentDescription="@string/innovatieroute_title"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_dashboard_black_24dp" />
+                        android:src="@drawable/ig_innovatieroute" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_dashboard_black_24dp" />
+                        android:src="@drawable/ig_blockchain" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -101,7 +101,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_dashboard_black_24dp" />
+                        android:src="@drawable/ig_ai" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -133,7 +133,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_dashboard_black_24dp" />
+                        android:src="@drawable/ig_stage" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -165,7 +165,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_dashboard_black_24dp" />
+                        android:src="@drawable/ig_oneclock" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -197,7 +197,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ic_dashboard_black_24dp" />
+                        android:src="@drawable/ig_omnibuzz" />
 
                     <TextView
                         android:layout_width="wrap_content"
