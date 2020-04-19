@@ -14,6 +14,12 @@
 
 
     <!-- ActivitiesFragment -->
+    <string name="innovatieroute_title">Innovatieroute UI/UX</string>
+    <string name="Blockchain_title">Blockchain</string>
+    <string name="ai_title">Artificial Intelligence</string>
+    <string name="stage_title">Internationaal Stage</string>
+    <string name="oneclock_title">OneClock</string>
+    <string name="omnibuzz_title">Omnibuzz</string>
 
     <!-- InnovatieRoute -->
 
