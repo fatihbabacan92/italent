@@ -24,13 +24,11 @@ class MainActivity : AppCompatActivity() {
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_activities -> {
-                //message.setText(R.string.title_settings)
                 val fragment = ActivitiesFragment.Companion.newInstance()
                 addFragment(fragment)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_reflection -> {
-                //message.setText(R.string.title_settings)
                 val fragment = ReflectionFragment.Companion.newInstance()
                 addFragment(fragment)
                 return@OnNavigationItemSelectedListener true
